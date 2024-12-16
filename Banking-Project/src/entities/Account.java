@@ -1,8 +1,6 @@
 package entities;
 
 import java.util.ArrayList;
-
-import static utilities.Login.findUser;
 import static utilities.Utils.*;
 
 public class Account extends User {

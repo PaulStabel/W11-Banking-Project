@@ -1,10 +1,7 @@
 package utilities;
 
 import entities.Account;
-
-import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
-
 import static utilities.Login.*;
 import static utilities.Signup.signUp;
 
@@ -79,6 +76,7 @@ public class Utils {
                     if (currentUser.withdraw(scanner.nextLine(), currentUser.getWithdrawLimit())) {
                         System.out.println("Success!\n");
                     }
+                    displayUserMenu();
                     break;
                 case 4:
                     System.out.print("Please enter your current password: ");

@@ -1,7 +1,5 @@
 package entities;
 
-import java.util.Objects;
-
 public abstract class User {
     private static int NEXT_ID = 1;
 
